@@ -24,6 +24,14 @@
     "find",
     "search"
   ],
+  "dependencies": {
+    "got": "^7.1.0",
+    "registry-url": "^3.0.3"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/paulocfjunior/npms-keyword/issues"
