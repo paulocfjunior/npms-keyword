@@ -1,0 +1,32 @@
+{
+  "name": "npms-keyword",
+  "version": "1.0.0",
+  "description": "Alternative to npm-keyword, using api.npms.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulocfjunior/npms-keyword.git"
+  },
+  "author": {
+    "name": "Paulo Cézar",
+    "email": "paulo.junior@objective.com.br"
+  },
+  "keywords": [
+    "npm",
+    "keyword",
+    "package",
+    "packages",
+    "pkg",
+    "registry",
+    "find",
+    "search"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulocfjunior/npms-keyword/issues"
+  },
+  "homepage": "https://github.com/paulocfjunior/npms-keyword#readme"
+}
