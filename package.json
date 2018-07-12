@@ -1,6 +1,6 @@
 {
   "name": "npms-keyword",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Alternative to npm-keyword, using api.npms.io",
   "main": "index.js",
   "scripts": {
