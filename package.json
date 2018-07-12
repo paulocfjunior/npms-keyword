@@ -26,6 +26,8 @@
   ],
   "dependencies": {
     "got": "^8.3.2",
+    "http": "0.0.0",
+    "https": "^1.0.0",
     "registry-url": "^3.0.3"
   },
   "devDependencies": {
