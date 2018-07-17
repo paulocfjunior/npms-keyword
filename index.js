@@ -11,23 +11,16 @@ function get(keyword, level) {
 
     keyword = encodeURIComponent(keyword);
 
-    var url = "https://api.npms.io/v2/search?q=" + keyword;
+    var url = "https://api.npms.io/v2/search?q=keywords:" + keyword;
 
-    // console.log('got('+url+')');
     return got(url, {json: true}).then(function (res) {
-        // console.log(res);
         return res.body.results;
     });
 }
 
 module.exports = function (keyword) {
-    // console.log('npmKeyword('+keyword+')');
     return get(keyword, 3).then(function (data) {
-        // console.log('get().then(data)');
-        // console.log(data);
         return data.map(function (el) {
-            // console.log('data.map(el)');
-            // console.log(el);
             return {
                 name: el.package.name,
                 description: el.package.description
